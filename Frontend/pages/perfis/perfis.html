@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfis - Blumoo</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="../../photos/Icon/Blumoo(icon).png" type="image/x-png">
+</head>
+
+<body class="dark-mode">
+    <header>
+        <nav>
+            <div class="logo">
+                <img class="icone" src="../../photos/Icon/Blumoo(no-background).png" alt="Blumoo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="../../index.html">Início</a></li>
+                <li><a href="../perfis/perfis.html">Perfis</a></li>
+                <li><a href="../projetos/projetos.html">Projetos</a></li>
+                <li><a href="../investidores/investidores.html">Investidores</a></li>
+                <li><a href="../meu perfil/meuperfil.html">Meu Perfil</a></li>
+                <div class="chat-icon">
+                    <i class="fas fa-comment"></i>
+                </div>
+            </ul>
+            <a class="chat-icon" aria-label="Chat">💬</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Perfis de Startups</h1>
+            <p>Descubra as startups mais inovadoras e promissoras.</p>
+        </section>
+
+        <section class="filter-section">
+            <h2>Filtrar Startups</h2>
+            <div class="filters">
+                <select id="categoryFilter">
+                    <option value="">Todas as Categorias</option>
+                    <option value="Tecnologia">Tecnologia</option>
+                    <option value="Saúde">Saúde</option>
+                    <option value="Educação">Educação</option>
+                    <option value="Energia">Energia</option>
+                    <option value="Alimentação">Alimentação</option>
+                </select>
+
+                <select id="stageFilter">
+                    <option value="">Todos os Estágios</option>
+                    <option value="Seed">Seed</option>
+                    <option value="Series A">Series A</option>
+                    <option value="Series B">Series B</option>
+                    <option value="Series C">Series C</option>
+                </select>
+
+                <input type="text" id="searchBar" placeholder="Pesquisar...">
+            </div>
+        </section>
+
+        <section class="profiles">
+            <h2>Startups</h2>
+            <div class="profile-cards" id="profileCards">
+                <!-- Exemplo de Cartão de Perfil -->
+                <div class="profile-card" data-category="Tecnologia" data-stage="Series A">
+                    <img src="../../photos/startups/inovatech.jpeg" alt="Logo da Startup">
+                    <h3>InovaTech</h3>
+                    <p>Transformando ideias em realidade com inovação e paixão.</p>
+                    <button>Ver Perfil</button>
+                </div>
+                <div class="profile-card">
+                    <img src="../../photos/fullsize-2014-03-18-01-WDL-Logo-37902_72100_061019958_192414934.jpg"
+                        alt="Logo da Startup 3">
+                    <h3>EcoFuturo</h3>
+                    <p>Comprometidos com soluções sustentáveis para um futuro melhor.</p>
+                    <button>Ver Perfil</button>
+                </div>
+
+                <div class="profile-card">
+                    <img src="../../photos/images-1.jpeg" alt="Logo da Startup 4">
+                    <h3>TechNexus</h3>
+                    <p>Conectando pessoas e tecnologia para uma sociedade mais eficiente.</p>
+                    <button>Ver Perfil</button>
+                </div>
+
+                <div class="profile-card">
+                    <img src="../../photos/images-1.png" alt="Logo da Startup 5">
+                    <h3>HealthTech Solutions</h3>
+                    <p>Inovando na área da saúde para melhorar a qualidade de vida.</p>
+                    <button>Ver Perfil</button>
+                </div>
+                <div class="profile-card">
+                    <img src="../../photos/images-2.png" alt="Logo da Startup 6">
+                    <h3>EduTech Innovations</h3>
+                    <p>Transformando a educação com tecnologia avançada e métodos inovadores de aprendizado.</p>
+                    <button>Ver Perfil</button>
+                </div>
+
+                <div class="profile-card">
+                    <img src="../../photos/images.jpeg" alt="Logo da Startup 7">
+                    <h3>CleanEnergy Solutions</h3>
+                    <p>Desenvolvendo soluções de energia limpa para um futuro sustentável e econômico.</p>
+                    <button>Ver Perfil</button>
+                </div>
+
+                <div class="profile-card">
+                    <img src="../../photos/images.png" alt="Logo da Startup 8">
+                    <h3>FoodTech Revolution</h3>
+                    <p>Revolucionando a indústria alimentícia com tecnologia de ponta para alimentação saudável e
+                        sustentável.</p>
+                    <button>Ver Perfil</button>
+                </div>
+
+                <div class="profile-card">
+                    <img src="../../photos/Startup_OutReach_Brasil2.png" alt="Logo da Startup 9">
+                    <h3>TravelTech Explorers</h3>
+                    <p>Explorando novas fronteiras no setor de viagens com tecnologias inovadoras para experiências
+                        únicas.</p>
+                    <button>Ver Perfil</button>
+                </div>
+
+                <div class="profile-card">
+                    <img src="../../photos/startupday.png" alt="Logo da Startup 10">
+                    <h3>SmartHome Systems</h3>
+                    <p>Integrando tecnologias inteligentes para transformar casas em ambientes conectados e eficientes.
+                    </p>
+                    <button>Ver Perfil</button>
+                </div>
+                <!-- Adicione mais cartões de perfil conforme necessário -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Blumoo. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Chat Dialog -->
+    <div id="chat-dialog" class="chat-dialog">
+        <div class="chat-dialog-content">
+            <span class="close-button">&times;</span>
+            <h2>Chat</h2>
+            <div class="chat-messages">
+                <p>Bem-vindo ao suporte da Blumoo. Como podemos ajudar?</p>
+            </div>
+            <input type="text" class="chat-input" placeholder="Digite sua mensagem...">
+            <button class="chat-send-button">Enviar</button>
+        </div>
+    </div>
+
+    <script src="../../script.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
