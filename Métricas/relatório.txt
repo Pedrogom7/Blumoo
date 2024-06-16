@@ -1,0 +1,30 @@
+Performance: 95/100
+- First Contentful Paint: 1.8s
+- Time to Interactive: 2.1s
+- Speed Index: 2.5s
+
+Accessibility: 98/100
+- Contrast Ratio: 4.5:1
+- Alt Text for Images: Passed
+- ARIA Attributes: Passed
+
+Best Practices: 96/100
+- HTTPS: Passed
+- No Vulnerable Libraries: Passed
+- App Cache: Passed
+
+SEO: 92/100
+- Meta Descriptions: Passed
+- Title Elements: Passed
+- HTTPS Usage: Passed
+
+
+
+Tabela de Métricas do Lighthouse
+Métrica	Pontuação
+First Contentful Paint	1.8s
+Time to Interactive	2.1s
+Speed Index	2.5s
+Accessibility	98/100
+Best Practices	96/100
+SEO	92/100
