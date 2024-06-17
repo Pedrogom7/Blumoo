@@ -1,5 +1,7 @@
 # Blumoo: A Nova Era de Conexão entre Investidores e Startups
 
+Link para acesso a nossa rede social Blumoo Inc. -> https://pedrogom7.github.io/Blumoo/
+
 ## Introdução
 
 Bem-vindo ao Blumoo, a rede social inovadora criada para revolucionar a forma como investidores e startups se conectam e colaboram. Em um mundo onde a inovação e o empreendedorismo estão em constante crescimento, Blumoo surge como a plataforma definitiva para unir aqueles que buscam oportunidades de investimento com as mentes mais brilhantes e as ideias mais promissoras.
